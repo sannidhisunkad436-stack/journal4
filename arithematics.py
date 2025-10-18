@@ -3,5 +3,12 @@ num1=int (input("Enter first number: "))
 num2=int (input("Enter second number: "))
 sum=num1+num2
 diff=num1-num2
+mult=num1*num2
+if num2 != 0:
+    div = num1 / num2
+else:
+    div = "Cannot divide by zero"
 print("Sum of two numbers:",sum)
 print("Difference of two numbers:",diff)
+print("multiplication of two numbers :",mult)
+print("Division of two numbers:",div)
